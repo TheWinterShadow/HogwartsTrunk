@@ -19,7 +19,7 @@ The Hogwarts theme is a feature-rich Zsh prompt that displays comprehensive syst
 
 The prompt displays information in the following format:
 
-[](https://github.com/TheWinterShadow/HogwartsTrunk/blob/25ff1e2a552eda2a152a77d862426fad31967632/zsh/zsh_hogwarts_theme.png)
+![](https://github.com/TheWinterShadow/HogwartsTrunk/blob/25ff1e2a552eda2a152a77d862426fad31967632/zsh/zsh_hogwarts_theme.png)
 
 ```
 username@hostname [session] [time] ~/current/path git:branch ↑1 ↓2 ✓
