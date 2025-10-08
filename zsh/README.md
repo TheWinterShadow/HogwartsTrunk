@@ -19,6 +19,8 @@ The Hogwarts theme is a feature-rich Zsh prompt that displays comprehensive syst
 
 The prompt displays information in the following format:
 
+[](https://github.com/TheWinterShadow/HogwartsTrunk/blob/25ff1e2a552eda2a152a77d862426fad31967632/zsh/zsh_hogwarts_theme.png)
+
 ```
 username@hostname [session] [time] ~/current/path git:branch ↑1 ↓2 ✓
 ❯ 
@@ -59,7 +61,7 @@ The theme uses ANSI colors inspired by Hogwarts houses:
 1. Download the theme file:
    ```bash
    curl -o ~/.oh-my-zsh/custom/themes/hogwarts.zsh-theme \
-     https://raw.githubusercontent.com/YOUR_USERNAME/HogwartsTrunk/main/hogwarts.zsh-theme
+     https://raw.githubusercontent.com/TheWinterShadow/HogwartsTrunk/refs/heads/main/zsh/hogwarts.zsh-theme
    ```
 
 2. Edit your `~/.zshrc` file and set the theme:
@@ -78,7 +80,7 @@ The theme uses ANSI colors inspired by Hogwarts houses:
    ```bash
    mkdir -p ~/.zsh/themes
    curl -o ~/.zsh/themes/hogwarts.zsh-theme \
-     https://raw.githubusercontent.com/TheWinterShadow/HogwartsTrunk/main/hogwarts.zsh-theme
+     https://raw.githubusercontent.com/TheWinterShadow/HogwartsTrunk/refs/heads/main/zsh/hogwarts.zsh-theme
    ```
 
 2. Add to your `~/.zshrc`:
