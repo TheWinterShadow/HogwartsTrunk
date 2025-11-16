@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+        "personal-tasks": {
+            "command": "wsl",
+            "args": [
+                "/mnt/q/HogwartsTrunk/venv/bin/python",
+                "/mnt/q/HogwartsTrunk/mcp/personal.py"
+            ],
+            "env": {
+                "PYTHONPATH": "/mnt/q/HogwartsTrunk"
+            }
+        }
+    }
+}
