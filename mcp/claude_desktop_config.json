@@ -9,6 +9,26 @@
             "env": {
                 "PYTHONPATH": "/mnt/q/HogwartsTrunk"
             }
+        },
+        "ocsf": {
+            "command": "wsl",
+            "args": [
+                "/mnt/q/HogwartsTrunk/venv/bin/python",
+                "/mnt/q/HogwartsTrunk/mcp/ocsf.py"
+            ],
+            "env": {
+                "PYTHONPATH": "/mnt/q/HogwartsTrunk"
+            }
+        },
+        "coding": {
+            "command": "wsl",
+            "args": [
+                "/mnt/q/HogwartsTrunk/venv/bin/python",
+                "/mnt/q/HogwartsTrunk/mcp/coding.py"
+            ],
+            "env": {
+                "PYTHONPATH": "/mnt/q/HogwartsTrunk"
+            }
         }
     }
 }
