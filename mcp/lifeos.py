@@ -27,7 +27,7 @@ def get_lifeos_paths() -> tuple[str, str]:
 LIFEOS_DIR, LIFEOS_README = get_lifeos_paths()
 
 
-@mcp_server.resource("lifeos-readme")
+@mcp_server.resource("resource://lifeos/readme")
 def get_lifeos_readme() -> str:
     """LifeOS directory documentation and overview.
 
