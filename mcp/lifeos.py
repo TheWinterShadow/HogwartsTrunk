@@ -156,6 +156,31 @@ def update_lifeos_file(file_name: str, content: str) -> str:
 
 
 @mcp_server.tool()
+def delete_lifeos_file(file_name: str) -> str:
+    """Delete a file from the LifeOS directory.
+
+    Args:
+        file_name (str): The name of the file to delete (can include subdirectories).
+
+    Returns:
+        str: A message indicating the result of the operation.
+    """
+    file_path = os.path.join(LIFEOS_DIR, file_name)
+
+    if not os.path.exists(file_path):
+        return f"File '{file_name}' does not exist in LifeOS directory."
+
+    if os.path.isdir(file_path):
+        return f"'{file_name}' is a directory, not a file. Use directory management tools to delete directories."
+
+    try:
+        os.remove(file_path)
+        return f"File '{file_name}' has been deleted successfully."
+    except OSError as e:
+        return f"Error deleting '{file_name}': {str(e)}"
+
+
+@mcp_server.tool()
 def create_lifeos_directory(directory_path: str) -> str:
     """Create a directory within the LifeOS directory structure.
 
