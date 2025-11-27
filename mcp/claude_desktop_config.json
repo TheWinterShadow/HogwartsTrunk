@@ -10,6 +10,16 @@
                 "PYTHONPATH": "/mnt/q/HogwartsTrunk"
             }
         },
+        "life-os": {
+            "command": "wsl",
+            "args": [
+                "/mnt/q/HogwartsTrunk/venv/bin/python",
+                "/mnt/q/HogwartsTrunk/mcp/lifeos.py"
+            ],
+            "env": {
+                "PYTHONPATH": "/mnt/q/HogwartsTrunk"
+            }
+        },
         "ocsf": {
             "command": "wsl",
             "args": [
